@@ -1,8 +1,30 @@
 # Unreleased
 
 ## Changes
+- Optimized initial loading by setting basic details first then profiles after ([\#629](https://github.com/forbole/big-dipper-2.0-cosmos/issues/629))
+- Add vp token unit in config ([\#645](https://github.com/forbole/big-dipper-2.0-cosmos/issues/645))
+
+## Bug fixes
+- Fix home page validator image url not displaying correctly ([\#632](https://github.com/forbole/big-dipper-2.0-cosmos/issues/632))
+- Fix validator anc account details possible infinite load due to dayjs in hook
+- Add description sanitization to proposals list ([\#666](https://github.com/forbole/big-dipper-2.0-cosmos/issues/666))
+- Fix pagination hook page callback ([\#667](https://github.com/forbole/big-dipper-2.0-cosmos/issues/667))
+
+## Migration
+
+- [v1.7.0 to v1.10.0](https://docs.bigdipper.live/cosmos-based/frontend/migrations/v1.7.0-to-v1.10.0)
+
+# base-v1.9.0 - 2021-01-10
+
+## Changes
 - Add logs in tx details ([\#515](https://github.com/forbole/big-dipper-2.0-cosmos/issues/515))
 - Add tombstoned status ([\#600](https://github.com/forbole/big-dipper-2.0-cosmos/issues/600))
+- Add manual versioning in ui ([\#605](https://github.com/forbole/big-dipper-2.0-cosmos/issues/605))
+- Optimized tx list for chains with heavy traffic ([\#602](https://github.com/forbole/big-dipper-2.0-cosmos/issues/602))
+- Setup case insensitive search in dtags ([\#592](https://github.com/forbole/big-dipper-2.0-cosmos/issues/592))
+- Fix profiles logic ([\#591](https://github.com/forbole/big-dipper-2.0-cosmos/issues/591))
+- Add AvatarNameListMsg for handling msgs with multiple users ([\#619](https://github.com/forbole/big-dipper-2.0-cosmos/issues/619))
+
 
 # base-v1.8.4 - 2021-12-08
 ## Bug fixes
