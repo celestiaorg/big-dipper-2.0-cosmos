@@ -1,24 +1,25 @@
 {
-  "title": "Desmos Block Explorer",
-  "network": "morpheus-apollo-2",
-  "icon": "https://raw.githubusercontent.com/forbole/big-dipper-assets/master/desmos/icon.svg?sanitize=true",
+  "title": "Celestia Block Explorer",
+  "network": "devnet2",
+  "icon": "https://raw.githubusercontent.com/celestiaorg/big-dipper-assets/b33b41a56c99b59c2bd78a05235772d8b965ceb4/celestia/icon.png",
   "logo": {
-    "default": "https://raw.githubusercontent.com/forbole/big-dipper-assets/master/desmos/logo.svg?sanitize=true"
+    "default": "https://raw.githubusercontent.com/celestiaorg/big-dipper-assets/30a99fc7207b3534bba7dce662dee77704fdd0dd/celestia/logo.png"
   },
   "prefix": {
-    "consensus": "desmosvalcons",
-    "validator": "desmosvaloper",
-    "account": "desmos"
+    "consensus": "celesvalcons",
+    "validator": "celesvaloper",
+    "account": "celes"
   },
   "genesis": {
     "time": "2021-07-13T08:00:00",
     "height": 1
   },
-  "primaryTokenUnit": "udaric",
+  "primaryTokenUnit": "celes",
+  "votingPowerTokenUnit": "celes",
   "tokenUnits": {
-    "udaric": {
-      "display": "daric",
-      "exponent": 6
+    "celes": {
+      "display": "celes",
+      "exponent": 0
     }
   },
   "extra": {
