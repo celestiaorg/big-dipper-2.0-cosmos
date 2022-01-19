@@ -1,9 +1,9 @@
 {
   "title": "Celestia Block Explorer",
   "network": "mainnet",
-  "icon": "https://raw.githubusercontent.com/celestiaorg/big-dipper-assets/b33b41a56c99b59c2bd78a05235772d8b965ceb4/celestia/icon.png",
+  "icon": "https://raw.githubusercontent.com/celestiaorg/big-dipper-assets/master/celestia/icon.png",
   "logo": {
-    "default": "https://raw.githubusercontent.com/celestiaorg/big-dipper-assets/30a99fc7207b3534bba7dce662dee77704fdd0dd/celestia/logo.png"
+    "default": "https://raw.githubusercontent.com/celestiaorg/big-dipper-assets/master/celestia/logo.png"
   },
   "prefix": {
     "consensus": "celesvalcons",
