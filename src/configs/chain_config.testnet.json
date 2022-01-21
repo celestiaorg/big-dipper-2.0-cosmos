@@ -15,11 +15,15 @@
     "height": 1
   },
   "primaryTokenUnit": "celes",
-  "votingPowerTokenUnit": "celes",
+  "votingPowerTokenUnit": "uceles",
   "tokenUnits": {
     "celes": {
       "display": "celes",
       "exponent": 0
+    },
+    "uceles": {
+      "display": "uceles",
+      "exponent": 6
     }
   },
   "extra": {
