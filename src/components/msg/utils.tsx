@@ -346,6 +346,15 @@ const getDataByType = (type: string) => {
   // =====================================
   const customTypeToModel = {
     // ========================
+    // Celestia
+    // ========================
+    '/payment.MsgPayForMessage': {
+      model: MODELS.MsgPayForMsg,
+      content: COMPONENTS.PayForMsg,
+      tagTheme: 'four',
+      tagDisplay: 'txPayForMessage',
+    },
+    // ========================
     // profiles
     // ========================
     '/desmos.profiles.v1beta1.MsgSaveProfile': {

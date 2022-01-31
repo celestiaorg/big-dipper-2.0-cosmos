@@ -1,4 +1,5 @@
 {
+  "txPayForMessage": "PayForMessage",
   "txDelegateLabel": "Delegate",
   "txRedelegateLabel": "Redelegate",
   "txUndelegateLabel": "Undelegate",

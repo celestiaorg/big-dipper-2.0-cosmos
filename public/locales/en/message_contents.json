@@ -1,4 +1,5 @@
 {
+  "txPayForMsgContent" : "<0>{{signer}}</0> commited for a message with namespace id <1>{{message_namespace_id}}</1> of size <2>{{message_size}}</2> with commitment <3>{{message_share_commitment}}</3>",
   "txWithdrawCommissionContent": "<0>{{user}}</0> withdrew <1>{{amount}}</1> from their validator commission",
   "txDelegateContent": "<0>{{user}}</0> delegated <1>{{amount}}</1> to <2>{{to}}</2>",
   "txRedelegateContent": "<0>{{user}}</0> redelegated <1>{{amount}}</1> from <2>{{from}}</2> to <3>{{to}}</3>",

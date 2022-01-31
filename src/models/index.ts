@@ -5,6 +5,10 @@ import MintParams from './mint_params';
 import GovParams from './gov_params';
 import DistributionParams from './distribution_params';
 // ================================
+// Celestia Message Types
+// ================================
+import MsgPayForMsg from './msg/payment/msg_payForMsg';
+// ================================
 // Transaction Message Types
 // ================================
 import MsgMultiSend from './msg/bank/msg_multi_send';
@@ -80,6 +84,7 @@ export {
 };
 
 export {
+  MsgPayForMsg,
   MsgSend,
   MsgMultiSend,
   MsgVerifyInvariant,

@@ -1,4 +1,5 @@
 {
+  "payment": "Payment",
   "block": "Block",
   "hash": "Hash",
   "type": "Type",
