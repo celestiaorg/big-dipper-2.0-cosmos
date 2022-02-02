@@ -8,6 +8,10 @@ import {
 } from './utils';
 
 // =========================
+// Celestia msg components
+// =========================
+import PayForMsg from './payment/payformsg';
+// =========================
 // msg components
 // =========================
 import Delegate from './staking/delegate';
@@ -76,6 +80,7 @@ export {
 };
 
 export {
+  PayForMsg,
   Delegate,
   Unknown,
   Redelegate,
