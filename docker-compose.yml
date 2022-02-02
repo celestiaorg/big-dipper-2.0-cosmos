@@ -1,0 +1,26 @@
+version: '3.6'
+services:
+  bigdipper:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_GRAPHQL_URL: <NEXT_PUBLIC_GRAPHQL_URL>
+        NEXT_PUBLIC_GRAPHQL_WS: <NEXT_PUBLIC_GRAPHQL_WS>
+        NODE_ENV: <NODE_ENV>
+        PORT: <PORT>
+        NEXT_PUBLIC_URL: <NEXT_PUBLIC_URL>
+        NEXT_PUBLIC_WS_CHAIN_URL: <NEXT_PUBLIC_WS_CHAIN_URL>
+        NEXT_PUBLIC_CHAIN_STATUS: <NEXT_PUBLIC_CHAIN_STATUS>
+    deploy:
+      replicas: 3
+    expose:
+      - "3000"
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - bigdipper
+    ports:
+      - "4000:4000"
+
