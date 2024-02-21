@@ -20,7 +20,7 @@
     "@material-ui/icons": "^4.9.1",
     "@material-ui/styles": "^4.10.0",
     "@socialgouv/matomo-next": "^1.2.2",
-    "axios": "^0.21.4",
+    "axios": "^0.28.0",
     "bech32": "^2.0.0",
     "big.js": "^6.1.1",
     "classnames": "^2.2.6",
